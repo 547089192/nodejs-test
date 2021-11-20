@@ -32,9 +32,7 @@ var server = http.createServer(function(request, response){
 <body>
     <h1>看到的都是大帅逼</h1>
 </body>
-</html>
-    `)
-
+    `)；
     response.end()
   } else if(path === '/x'){
     response.statusCode = 200
